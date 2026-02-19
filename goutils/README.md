@@ -1,6 +1,6 @@
-# goutils — 50 Unix CLI Utilities in Go
+# goutils — Unix CLI Utilities in Go
 
-A collection of 50 standard Unix utilities reimplemented in pure Go with no external dependencies.
+A collection of standard Unix utilities reimplemented in pure Go with no external dependencies.
 
 ## Build All
 
