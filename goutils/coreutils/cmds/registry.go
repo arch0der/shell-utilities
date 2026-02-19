@@ -4,8 +4,6 @@ import "sort"
 
 var registry = map[string]func(){}
 
-func register(name string, fn func()) { registry[name] = fn }
-
 func Lookup(name string) (func(), bool) {
 	fn, ok := registry[name]
 	return fn, ok
